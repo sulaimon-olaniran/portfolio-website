@@ -1,0 +1,126 @@
+.technologies-page-container {
+  min-height: calc(100vh - 70px);
+  width: 100%;
+  display: flex;
+  // background: linear-gradient(90deg, #01545e 50%, black 0%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #01545e;
+  background-color: #000000;
+  position: relative;
+
+  .overlay-background-image {
+    width: 100%;
+    height: calc(100vh - 70px);
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url("https://wallpapercave.com/dwp2x/wp2406598.jpg") no-repeat
+      center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 1;
+  }
+
+  .overlay-background-color {
+    width: 100%;
+    min-height: calc(100vh - 70px);
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+  }
+
+  .technologies-page-inner-container {
+    width: 1180px;
+    height: 100%;
+    padding: 10px 0;
+    z-index: 3;
+
+    .technologies-page-header-container {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      h1 {
+        color: #fff;
+        font-size: 4rem;
+        line-height: 1.5;
+        font-weight: normal;
+        margin-bottom: 3vh;
+
+        span {
+          color: orange;
+        }
+      }
+    }
+
+    .technologies-page-contents-container {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+
+      .each-technology-container {
+        width: 200px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        margin: 20px;
+        border-radius: 50%;
+        position: relative;
+
+        .each-tech-overlay {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: 1;
+          background-color: rgba(0, 0, 0, 0);
+        }
+
+        .technology-image-container {
+          width: 100px;
+          height: 100px;
+          overflow: hidden;
+
+          img {
+            display: block;
+            width: 100%;
+            height: 100px;
+            object-fit: contain;
+          }
+        }
+
+        p {
+          font-size: 14.5px;
+          line-height: 1.5;
+          color: rgb(47, 47, 47);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1180px) {
+  .technologies-page-container {
+    .technologies-page-inner-container {
+      width: 100%;
+
+      .technologies-page-header-container {
+        h1 {
+          font-size: 3.5rem;
+        }
+      }
+    }
+  }
+}

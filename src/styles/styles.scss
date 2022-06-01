@@ -1,0 +1,18 @@
+@import "./universal";
+@import "../pages/index";
+@import "../components/index";
+
+.application-container {
+  width: 100%;
+  height: 100%;
+
+  .application-content-pages-container {
+    width: 100%;
+    min-height: 100vh;
+
+    .application-content-each-page {
+      width: 100%;
+      //min-height: 100vh;
+    }
+  }
+}

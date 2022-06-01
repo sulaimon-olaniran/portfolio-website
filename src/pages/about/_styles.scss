@@ -1,0 +1,133 @@
+.about-page-container {
+  height: calc(100vh - 70px);
+  width: 100%;
+  display: flex;
+  background: linear-gradient(90deg, black 50%, #01545e 0%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .about-page-inner-container {
+    max-width: 1180px;
+    height: 100%;
+    display: flex;
+    transition: font-size 0.5s ease-in-out;
+
+    .about-page-background-image-container {
+      height: 100%;
+      width: 50%;
+      background: url("https://wallpapercave.com/dwp2x/wp1828920.jpg") no-repeat
+        center center;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-position: 65% 100%;
+      transition: font-size 0.5s ease-in-out;
+    }
+
+    .about-page-contents-container {
+      width: 50%;
+      height: 100%;
+      background-color: #01545e;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      padding-left: 10%;
+      transition: font-size 0.5s ease-in-out;
+
+      .about-page-contents-header-container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        transition: font-size 0.5s ease-in-out;
+
+        h1 {
+          color: #fff;
+          font-size: 4rem;
+          line-height: 1.5;
+          font-weight: normal;
+          margin-bottom: 5vh;
+          transition: font-size 0.5s ease-in-out;
+
+          span {
+            color: orange;
+          }
+        }
+      }
+
+      .about-page-contents-avatar-container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 5vh;
+        transition: font-size 0.5s ease-in-out;
+
+        .MuiAvatar-root {
+          width: 250px;
+          height: 250px;
+          background-color: #fff;
+        }
+      }
+
+      .about-page-contents-paragraphs-container {
+        max-width: 100%;
+        margin-bottom: 5vh;
+        transition: font-size 0.5s ease-in-out;
+
+        p {
+          font-size: 15px;
+          line-height: 1.5;
+          color: #fff;
+          margin-bottom: 24px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1180px) {
+  .about-page-container {
+    .about-page-inner-container {
+      padding: 0 15px;
+      transition: font-size 0.5s ease-in-out;
+
+      .about-page-background-image-container {
+        background-position: 55% 100%;
+        transition: font-size 0.5s ease-in-out;
+      }
+
+      .about-page-contents-container {
+        padding-left: 0;
+        align-items: center;
+
+        .about-page-contents-header-container {
+          justify-content: center;
+          transition: font-size 0.5s ease-in-out;
+          h1 {
+            font-size: 3.5rem;
+            transition: font-size 0.5s ease-in-out;
+          }
+        }
+
+        .about-page-contents-avatar-container {
+          justify-content: center;
+        }
+
+        .about-page-contents-paragraphs-container {
+          display: flex;
+          flex-direction: column;
+          // align-items: center;
+          justify-content: center;
+          max-width: 80%;
+          transition: font-size 0.5s ease-in-out;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,92 @@
+.homepage-page-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url("https://wallpapercave.com/wp/wp2406521.jpg") no-repeat center
+    center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition: all 0.5s ease-in-out;
+
+  .homepage-page-contents-container {
+    width: 1180px;
+    height: 100vh;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+
+    .homepage-page-introduction-container {
+      height: 100%;
+      max-width: 700px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      transition: all 0.5s ease-in-out;
+      h1 {
+        font-size: 3.5rem;
+        color: white;
+        line-height: 1.5;
+        text-transform: initial;
+        transition: font-size 0.5s ease-in-out;
+
+        span {
+          color: #186b01;
+        }
+      }
+
+      p {
+        color: #f3e8d4;
+        margin: 25px 0;
+        font-size: 1rem;
+        line-height: 1.5;
+      }
+
+      button {
+        min-width: 200px;
+        height: 50px;
+        font-size: 1.2rem;
+        background-color: #186b01;
+        color: #fff;
+        text-transform: capitalize;
+        line-height: 1.5;
+        transition: all 0.5s ease-in-out;
+      }
+
+      button:hover {
+        background-color: #3da520;
+      }
+    }
+  }
+}
+
+@media (max-width: 1180px) {
+  .homepage-page-container {
+    background-position: 82% center;
+    .homepage-page-contents-container {
+      width: 100%;
+
+      .homepage-page-introduction-container {
+        padding-left: 15px;
+
+        h1 {
+          font-size: 3rem;
+          max-width: 600px;
+        }
+
+        button {
+          font-size: 180px;
+          font-size: 1.1rem;
+        }
+      }
+    }
+  }
+}
