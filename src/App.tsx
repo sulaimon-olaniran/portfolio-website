@@ -10,7 +10,11 @@ import {
   ProjectsPage,
   TechnologiesPage,
 } from "./pages";
-import {NavbarComponent, PageLoaderComponent} from "./components";
+import {
+  FooterrComponent,
+  NavbarComponent,
+  PageLoaderComponent,
+} from "./components";
 
 function App() {
   return (
@@ -42,6 +46,8 @@ function App() {
           <ContactPage />
         </Element>
       </div>
+
+      <FooterrComponent />
     </div>
   );
 }

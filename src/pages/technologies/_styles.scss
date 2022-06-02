@@ -1,5 +1,5 @@
 .technologies-page-container {
-  min-height: calc(100vh - 70px);
+  // min-height: calc(100vh - 70px);
   width: 100%;
   display: flex;
   // background: linear-gradient(90deg, #01545e 50%, black 0%);
@@ -12,7 +12,8 @@
 
   .overlay-background-image {
     width: 100%;
-    height: calc(100vh - 70px);
+    //height: calc(100vh - 70px);
+    height: inherit;
     position: absolute;
     left: 0;
     top: 0;
@@ -27,7 +28,8 @@
 
   .overlay-background-color {
     width: 100%;
-    min-height: calc(100vh - 70px);
+    height: inherit;
+    // min-height: calc(100vh - 70px);
     position: absolute;
     left: 0;
     top: 0;
@@ -37,8 +39,8 @@
 
   .technologies-page-inner-container {
     width: 1180px;
-    height: 100%;
-    padding: 10px 0;
+    //height: 100%;
+    padding: 45px 0;
     z-index: 3;
 
     .technologies-page-header-container {
@@ -46,13 +48,13 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      margin-bottom: 25px;
 
       h1 {
         color: #fff;
-        font-size: 4rem;
+        font-size: 65px;
         line-height: 1.5;
         font-weight: normal;
-        margin-bottom: 3vh;
 
         span {
           color: orange;
@@ -118,7 +120,7 @@
 
       .technologies-page-header-container {
         h1 {
-          font-size: 3.5rem;
+          font-size: 55px;
         }
       }
     }
@@ -130,7 +132,7 @@
     .technologies-page-inner-container {
       .technologies-page-header-container {
         h1 {
-          font-size: 3rem;
+          font-size: 45px;
         }
       }
     }
