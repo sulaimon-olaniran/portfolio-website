@@ -1,5 +1,5 @@
 .about-page-container {
-  height: calc(100vh - 70px);
+  min-height: calc(100vh - 70px);
   width: 100%;
   display: flex;
   background: linear-gradient(90deg, black 50%, #01545e 0%);
@@ -9,12 +9,13 @@
 
   .about-page-inner-container {
     max-width: 1180px;
-    height: 100%;
+    min-height: calc(100vh - 70px);
     display: flex;
     transition: font-size 0.5s ease-in-out;
 
     .about-page-background-image-container {
       height: 100%;
+      min-height: calc(100vh - 70px);
       width: 50%;
       background: url("https://wallpapercave.com/dwp2x/wp1828920.jpg") no-repeat
         center center;
@@ -135,6 +136,7 @@
 @media (max-width: 800px) {
   .about-page-container {
     .about-page-inner-container {
+      background-color: #01545e;
       .about-page-background-image-container {
         display: none;
       }
