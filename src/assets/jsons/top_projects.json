@@ -4,6 +4,7 @@
     "live": "https://os-whatsapp-clone.netlify.app/",
     "repo": "https://github.com/sulaimon-olaniran/whatsapp-clone",
     "image": "https://raw.githubusercontent.com/sulaimon-olaniran/whatsapp-clone/main/images/screenshot_2.png",
+    "description": "",
     "techs": [
       "React",
       "SCSS",
@@ -20,6 +21,7 @@
     "live": "https://os-whatsapp-clone.netlify.app/",
     "repo": "https://github.com/sulaimon-olaniran/instagram-web-clone",
     "image": "https://nimbus-screenshots.s3.amazonaws.com/s/c68cd62ec827ff2c7c4e3b834bc6817c.png",
+    "description": "",
     "techs": ["React", "SCSS", "Material-UI", "Redux", "Firebase", "Formik"]
   },
 
@@ -28,6 +30,7 @@
     "live": "https://www.npmjs.com/package/react-file-image-to-base64",
     "repo": "https://github.com/sulaimon-olaniran/react-file-image-to-base64",
     "image": "https://raw.githubusercontent.com/sulaimon-olaniran/react-file-image-to-base64/main/screenshots/screenshot_1.png",
+    "description": "",
     "techs": ["React", "Material-UI", "TypeScript", "MomentJS"]
   },
 
@@ -36,6 +39,7 @@
     "live": "https://os-messenger.netlify.app/",
     "repo": "https://github.com/sulaimon-olaniran/react-web-chat",
     "image": "https://suzzwayne.nimbusweb.me/box/attachment/2auy07er0ti49n1v/H62QKos7A2dkwqgC/preview",
+    "description": "",
     "techs": [
       "React",
       "SCSS",

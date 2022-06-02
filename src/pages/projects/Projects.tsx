@@ -24,43 +24,47 @@ const ProjectsPage = () => {
 
                 <div className="preject-details-container">
                   <div className="project-details-contents-container">
-                    <h1>{project.name}</h1>
+                    <div className="details-top-section">
+                      <h1>{project.name}</h1>
 
-                    <div className="project-details-description-container">
-                      <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Iure placeat modi cupiditate illum magni
-                        architecto odio, accusantium facere numquam! Autem neque
-                        quis fuga corporis molestias. Perspiciatis animi
-                        asperiores perferendis laborum!
-                      </p>
+                      <div className="project-details-description-container">
+                        <p>
+                          Lorem ipsum dolor, sit amet consectetur adipisicing
+                          elit. Iure placeat modi cupiditate illum magni
+                          architecto odio, accusantium facere numquam! Autem
+                          neque quis fuga corporis molestias. Perspiciatis animi
+                          asperiores perferendis laborum!
+                        </p>
+                      </div>
                     </div>
 
-                    <div className="project-details-techs-list-container">
-                      {project.techs.map(tech => {
-                        return <span>{tech}</span>;
-                      })}
-                    </div>
+                    <div className="details-bottom-section">
+                      <div className="project-details-techs-list-container">
+                        {project.techs.map(tech => {
+                          return <span>{tech}</span>;
+                        })}
+                      </div>
 
-                    <div className="project-details-links-container">
-                      <a
-                        href={project.repo}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <Button color="primary" variant="contained">
-                          GitHub
-                        </Button>
-                      </a>
-                      <a
-                        href={project.live}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <Button color="primary" variant="contained">
-                          Demo
-                        </Button>
-                      </a>
+                      <div className="project-details-links-container">
+                        <a
+                          href={project.repo}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <Button color="primary" variant="contained">
+                            GitHub
+                          </Button>
+                        </a>
+                        <a
+                          href={project.live}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <Button color="primary" variant="contained">
+                            Demo
+                          </Button>
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>

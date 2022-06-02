@@ -131,3 +131,22 @@
     }
   }
 }
+
+@media (max-width: 800px) {
+  .about-page-container {
+    .about-page-inner-container {
+      .about-page-background-image-container {
+        display: none;
+      }
+
+      .about-page-contents-container {
+        width: 100%;
+        .about-page-contents-header-container {
+          h1 {
+            font-size: 3rem;
+          }
+        }
+      }
+    }
+  }
+}
