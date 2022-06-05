@@ -168,3 +168,33 @@
     }
   }
 }
+
+@media (max-width: 500px) {
+  .about-page-container {
+    .about-page-inner-container {
+      background-color: #01545e;
+      .about-page-background-image-container {
+        display: none;
+      }
+
+      .about-page-contents-container {
+        width: 100%;
+        .about-page-contents-header-container {
+          h1 {
+            font-size: 35px;
+          }
+        }
+
+        .about-page-contents-paragraphs-container {
+          display: flex;
+          flex-direction: column;
+          // align-items: center;
+          max-width: 100%;
+          justify-content: center;
+          padding: 0 15px;
+          transition: font-size 0.5s ease-in-out;
+        }
+      }
+    }
+  }
+}

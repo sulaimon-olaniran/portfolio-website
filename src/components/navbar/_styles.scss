@@ -15,6 +15,12 @@
     height: 100%;
     max-width: 1180px;
   }
+
+  .navbar-component-mobile-screen {
+    height: 100%;
+    width: 100%;
+    display: none;
+  }
 }
 
 .show-navbar-background {
@@ -73,6 +79,19 @@
     padding: 0 15px;
     .navbar-component-desktop-screen {
       width: 100%;
+    }
+  }
+}
+
+@media (max-width: 920px) {
+  .navbar-component-container {
+    padding: 0 15px;
+    .navbar-component-desktop-screen {
+      display: none;
+    }
+
+    .navbar-component-mobile-screen {
+      display: flex;
     }
   }
 }

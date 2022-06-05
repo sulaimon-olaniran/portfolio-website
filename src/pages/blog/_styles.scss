@@ -173,3 +173,38 @@
     }
   }
 }
+
+@media (max-width: 600px) {
+  .blog-page-container {
+    padding: 0 15px;
+    .blog-page-inner-container {
+      width: 100%;
+      .blog-page-articles-container {
+        .each-article-container {
+          width: 100%;
+        }
+      }
+
+      .blog-page-header-container {
+        h1 {
+          font-size: 35px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .blog-page-container {
+    padding: 0 15px;
+    .blog-page-inner-container {
+      width: 100%;
+
+      .blog-page-header-container {
+        h1 {
+          font-size: 28px;
+        }
+      }
+    }
+  }
+}

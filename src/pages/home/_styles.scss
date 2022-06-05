@@ -111,6 +111,55 @@
           font-size: 50px;
         }
 
+        // button {
+        //   min-width: 200px;
+        //   height: 50px;
+        //   //font-size: 1m;
+        // }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .homepage-page-container {
+    background: url("https://wallpapercave.com/dwp2x/wp1828920.jpg") no-repeat
+      center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    .homepage-page-contents-container {
+      width: 100%;
+      padding: 80px 0;
+
+      .homepage-page-introduction-container {
+        padding-left: 15px;
+        padding-right: 15px;
+        max-width: 100%;
+
+        h1 {
+          font-size: 34px;
+        }
+
+        // button {
+        //   min-width: 200px;
+        //   height: 50px;
+        //   //font-size: 1m;
+        // }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .homepage-page-container {
+    .homepage-page-contents-container {
+      .homepage-page-introduction-container {
+        h1 {
+          font-size: 28px;
+        }
+
         button {
           min-width: 200px;
           height: 50px;

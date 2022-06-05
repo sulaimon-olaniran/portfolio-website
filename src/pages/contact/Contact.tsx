@@ -42,6 +42,67 @@ const ContactPage = ({touched, errors, isSubmitting, status}: iProps) => {
         </div>
 
         <div className="contact-page-contact-information">
+          <div className="contact-page-form-container">
+            <div className="form-header-container">
+              <h3>Send me a message</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+                provident voluptates nemo autem delectus voluptate culpa quas.
+                Eveniet ducimus sapiente molestiae cum.
+              </p>
+            </div>
+            <Form>
+              <Field
+                as={TextField}
+                type="text"
+                name="name"
+                label="Your name"
+                error={touched.name && errors.name ? true : false}
+                helperText={touched.name ? errors.name : null}
+              />
+
+              <Field
+                as={TextField}
+                type="email"
+                name="email"
+                label="Your email"
+                error={touched.email && errors.email ? true : false}
+                helperText={touched.email ? errors.email : null}
+              />
+
+              <Field
+                as={TextField}
+                type="text"
+                name="message"
+                label="Your message"
+                variant="outlined"
+                error={touched.message && errors.message ? true : false}
+                helperText={touched.message ? errors.message : null}
+                multiline
+                rows={4}
+              />
+
+              <div className="robot-checkbox-container">
+                <Checkbox {...label} />{" "}
+                <p>
+                  I'm not a robot <span>🤖</span>
+                </p>
+              </div>
+
+              <div className="form-button-container">
+                <Field
+                  type="submit"
+                  as={Button}
+                  variant="contained"
+                  color="secondary"
+                  name="submit_button"
+                  //disabled={status}
+                >
+                  Send Message
+                </Field>
+              </div>
+            </Form>
+          </div>
           <div className="contact-page-details-container">
             <div className="details-inner-container">
               <div className="detail-container">
@@ -105,67 +166,6 @@ const ContactPage = ({touched, errors, isSubmitting, status}: iProps) => {
                 </IconButton>
               </a>
             </div>
-          </div>
-          <div className="contact-page-form-container">
-            <div className="form-header-container">
-              <h3>Send me a message</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
-                provident voluptates nemo autem delectus voluptate culpa quas.
-                Eveniet ducimus sapiente molestiae cum.
-              </p>
-            </div>
-            <Form>
-              <Field
-                as={TextField}
-                type="text"
-                name="name"
-                label="Your name"
-                error={touched.name && errors.name ? true : false}
-                helperText={touched.name ? errors.name : null}
-              />
-
-              <Field
-                as={TextField}
-                type="email"
-                name="email"
-                label="Your email"
-                error={touched.email && errors.email ? true : false}
-                helperText={touched.email ? errors.email : null}
-              />
-
-              <Field
-                as={TextField}
-                type="text"
-                name="message"
-                label="Your message"
-                variant="outlined"
-                error={touched.message && errors.message ? true : false}
-                helperText={touched.message ? errors.message : null}
-                multiline
-                rows={4}
-              />
-
-              <div className="robot-checkbox-container">
-                <Checkbox {...label} />{" "}
-                <p>
-                  I'm not a robot <span>🤖</span>
-                </p>
-              </div>
-
-              <div className="form-button-container">
-                <Field
-                  type="submit"
-                  as={Button}
-                  variant="contained"
-                  color="secondary"
-                  name="submit_button"
-                  //disabled={status}
-                >
-                  Send Message
-                </Field>
-              </div>
-            </Form>
           </div>
         </div>
       </div>

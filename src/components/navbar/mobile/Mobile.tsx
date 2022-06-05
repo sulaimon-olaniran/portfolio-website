@@ -1,7 +1,10 @@
+import MenuButton from "./menu_button/MenuButton";
+
 const NavbarMobileScreen = () => {
   return (
-    <div>
-      <div></div>
+    <div className="navbar-mobile-screen-container">
+      <div>Hello world</div>
+      <MenuButton />
     </div>
   );
 };
