@@ -1,14 +1,14 @@
 import {IconButton} from "@mui/material";
 import {useState} from "react";
 
-const MenuButton = () => {
-  const [isToggled, setIsToggled] = useState(false);
+interface componentProps {
+  toggleDrawer: () => void;
+  isToggled: boolean;
+}
 
-  const toggleIsToggled = () => {
-    setIsToggled(prev => !prev);
-  };
+const MenuButton = ({toggleDrawer, isToggled}: componentProps) => {
   return (
-    <IconButton onClick={toggleIsToggled}>
+    <IconButton onClick={toggleDrawer}>
       <div
         className={`menu-button-container ${isToggled && "menu-is-toggled"}`}
       >
