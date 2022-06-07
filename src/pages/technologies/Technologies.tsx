@@ -1,4 +1,4 @@
-import technologies from "../../assets/jsons/technologies.json";
+import {technologies} from "../../assets/data/technologies";
 
 const TechnologiesPage = () => {
   return (
@@ -18,7 +18,7 @@ const TechnologiesPage = () => {
               <div key={tech.name} className="each-technology-container">
                 <div className="each-tech-overlay" />
                 <div className="technology-image-container">
-                  <img src={tech.image} />
+                  <img src={tech.image} alt="" />
                 </div>
                 <p>{tech.name}</p>
               </div>

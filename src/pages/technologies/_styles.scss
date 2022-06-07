@@ -12,13 +12,12 @@
 
   .overlay-background-image {
     width: 100%;
-    //height: calc(100vh - 70px);
-    height: inherit;
+    height: 100%;
     position: absolute;
     left: 0;
     top: 0;
-    background: url("https://wallpapercave.com/dwp2x/wp2406598.jpg") no-repeat
-      center center;
+    background: url("../../assets/images/spiderweb.jpeg") no-repeat center
+      center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -28,8 +27,7 @@
 
   .overlay-background-color {
     width: 100%;
-    height: inherit;
-    // min-height: calc(100vh - 70px);
+    height: 100%;
     position: absolute;
     left: 0;
     top: 0;

@@ -1,6 +1,6 @@
 import {Button} from "@mui/material";
 
-import projects from "../../assets/jsons/top_projects.json";
+import {projects} from "../../assets/data/top_projects";
 
 const ProjectsPage = () => {
   return (
@@ -28,13 +28,7 @@ const ProjectsPage = () => {
                       <h1>{project.name}</h1>
 
                       <div className="project-details-description-container">
-                        <p>
-                          Lorem ipsum dolor, sit amet consectetur adipisicing
-                          elit. Iure placeat modi cupiditate illum magni
-                          architecto odio, accusantium facere numquam! Autem
-                          neque quis fuga corporis molestias. Perspiciatis animi
-                          asperiores perferendis laborum!
-                        </p>
+                        <p>{project.description}</p>
                       </div>
                     </div>
 

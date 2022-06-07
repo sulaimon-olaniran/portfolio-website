@@ -11,6 +11,10 @@ body {
   height: 100%;
   font-family: "Open Sans", sans-serif;
   font-family: "Poppins", sans-serif;
+
+  a {
+    text-decoration: none;
+  }
 }
 
 body.dark::-webkit-scrollbar {

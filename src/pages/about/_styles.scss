@@ -16,11 +16,10 @@
 
     .about-page-background-image-container {
       height: 100%;
-      //min-height: 600px;
       height: inherit;
       width: 50%;
-      background: url("https://wallpapercave.com/dwp2x/wp1828920.jpg") no-repeat
-        center center;
+      background: url("../../assets/images/anonymous_2.jpeg") no-repeat center
+        center;
       background-size: cover;
       -webkit-background-size: cover;
       -moz-background-size: cover;
@@ -87,11 +86,26 @@
           font-size: 15px;
           line-height: 1.5;
           color: #fff;
+          padding-bottom: 20px;
           //
         }
 
-        p:nth-child(1) {
-          margin-bottom: 24px;
+        p:nth-child(3) {
+          margin-bottom: o;
+        }
+      }
+
+      .about-page-button-container {
+        width: 100%;
+        display: flex;
+
+        button {
+          background-color: orange;
+          color: #fff;
+          font-size: 16px;
+          height: 40px;
+          min-width: 200px;
+          text-transform: capitalize;
         }
       }
     }
@@ -163,6 +177,13 @@
           justify-content: center;
           padding: 0 25px;
           transition: font-size 0.5s ease-in-out;
+        }
+
+        .about-page-button-container {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
         }
       }
     }

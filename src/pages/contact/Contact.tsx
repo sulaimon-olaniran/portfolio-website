@@ -46,9 +46,8 @@ const ContactPage = ({touched, errors, isSubmitting, status}: iProps) => {
             <div className="form-header-container">
               <h3>Send me a message</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
-                provident voluptates nemo autem delectus voluptate culpa quas.
-                Eveniet ducimus sapiente molestiae cum.
+                I'm currently open to full-time, part-time, contract and
+                freelance gigs. Kindly reach out to me if you need my services.
               </p>
             </div>
             <Form>
@@ -182,13 +181,16 @@ const FormikContactPage = withFormik({
     };
   },
 
-  // validationSchema: yup.object().shape({
-  //   name: yup.string().required("Please tell me your name."),
+  validationSchema: yup.object().shape({
+    name: yup.string().required("Please tell me your name."),
 
-  //   email: yup.string().email("Invalid email").required("Email is Required"),
+    email: yup
+      .string()
+      .email("Invalid email")
+      .required("Include a valid Email"),
 
-  //   message: yup.string().required("What's your message ?"),
-  // }),
+    message: yup.string().required("What's your message ?"),
+  }),
 
   handleSubmit(values, {resetForm, setSubmitting, setStatus}) {
     setStatus(true);

@@ -19,7 +19,7 @@ import {
 function App() {
   return (
     <div className="application-container">
-      {/* <PageLoaderComponent /> */}
+      <PageLoaderComponent />
       <NavbarComponent />
       <div className="application-content-pages-container">
         <Element name="homepage" className="application-content-each-page">
