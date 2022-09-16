@@ -23,7 +23,7 @@ export const projects = [
 
   {
     "name": "Instagram Web Clone",
-    "live": "https://os-whatsapp-clone.netlify.app/",
+    "live": "https://os-instagram-clone.netlify.app/",
     "repo": "https://github.com/sulaimon-olaniran/instagram-web-clone",
     "image": instagram,
     "description": "A clone of the Instagram web app with functions such as authentication, creating posts and stories, chatting with other users, following and unfollowing users, liking and unliking posts, blocking user, updating account details and other instagram web functions.",
