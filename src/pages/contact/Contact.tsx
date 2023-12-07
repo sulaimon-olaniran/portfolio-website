@@ -114,7 +114,7 @@ const ContactPage = ({touched, errors, isSubmitting, status}: iProps) => {
                 <LocalPhoneIcon />
                 <h3>Phone</h3>
                 <p>+234 90 3579 3269,</p>
-                <p>+234 80 2665 8725.</p>
+                <p>+234 80 2665 8025.</p>
               </div>
 
               <div className="detail-container">

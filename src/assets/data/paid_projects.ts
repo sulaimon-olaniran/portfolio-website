@@ -2,30 +2,8 @@ import whatsapp from "../images/whatsapp_project.png";
 import instagram from "../images/instagram_project.png";
 import base64 from "../images/base64_project.png";
 import os_messenger from "../images/os_messenger_project.png";
-import afrilib from "../images/afrilib.png";
-import healthstack from "../images/healthstack.png";
 
 export const projects = [
-  {
-    name: "Afreb.Lib Academy",
-    live: "https://afrelib-client.vercel.app/",
-    repo: "",
-    image: afrilib,
-    description:
-      "An Academy Artificial Intelligence Challenge project which I was priviledge to work on the frontend and collaborated with other developers (frontend and backend)",
-    techs: ["Next.JS", "CSS", "SCSS", "Material-UI", "React-Query"],
-  },
-
-  {
-    name: "Healthstack Solutions Limited",
-    live: "https://healthstack-test.netlify.app/",
-    repo: "",
-    image: healthstack,
-    description:
-      "Healthstack is a digital health platform that creates and strengthens a resilient, pandemic-proof healthcare system. They provide hybrid cloud-based digital tools to perform healthcare services and facilitate interactions between healthcare providers and their clients easily using digital technology",
-    techs: ["Next.JS", "CSS", "SCSS", "Material-UI", "React-Query"],
-  },
-
   {
     name: "WhatsApp Web Clone",
     live: "https://os-whatsapp-clone.netlify.app/",
@@ -33,7 +11,15 @@ export const projects = [
     image: whatsapp,
     description:
       "A clone of the WhatsApp web app with ability to create account, sending various messages such as texts, stickers, photos and gifs. Create and delete chats, blocking users/contacts,delete messages, clear chat messages, pinning chat, archiving chat, staring messages and some other WhatsApp functionalities. ",
-    techs: ["React", "SCSS", "Material-UI", "Context-API"],
+    techs: [
+      "React",
+      "SCSS",
+      "Material-UI",
+      "Redux",
+      "Node.JS(Express)",
+      "MongoDB",
+      "PusherJS",
+    ],
   },
 
   {

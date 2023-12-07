@@ -32,10 +32,10 @@ const AboutPage = () => {
             </p>
 
             <p>
-              I'm also passionate about Back-end development and have a
-              beginner's knowledge of Node.JS(Express), MongoDB and Firebase.
-              I'm a quick learner with a willingness to learn new skills and
-              improve my current skills.
+              I'm also passionate about Back-end development and possess a
+              strong knowledge of Node.JS(Express), MongoDB, PostgreSQL,
+              Firebase and Prisma. I'm a quick learner with a willingness to
+              learn new skills and improve my current skills.
             </p>
           </div>
 

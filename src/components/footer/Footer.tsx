@@ -7,7 +7,7 @@ const FooterrComponent = () => {
         <p>Built with React, Typescript and SCSS </p>
         <span>➡</span>
         <p>
-          <CopyrightIcon /> Sulaimon Olaniran 2022
+          <CopyrightIcon /> Sulaimon Olaniran 2024
         </p>
       </div>
     </div>

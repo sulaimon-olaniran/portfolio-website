@@ -45,7 +45,11 @@ const ProjectsPage = () => {
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          <Button color="primary" variant="contained">
+                          <Button
+                            color="primary"
+                            variant="contained"
+                            disabled={!project.repo}
+                          >
                             GitHub
                           </Button>
                         </a>
