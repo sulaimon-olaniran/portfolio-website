@@ -14,6 +14,10 @@ import next_js from "../images/next_js.png";
 import postgres from "../images/postgres.png";
 import prisma from "../images/prisma.png";
 import tailwind from "../images/tailwind.png";
+import expo from "../images/expo.png";
+import zustand from "../images/zustand.png";
+import hook_form from "../images/hook-form.png";
+import flowbite from "../images/flowbite.jpeg";
 
 export const technologies = [
   {
@@ -33,8 +37,12 @@ export const technologies = [
     image: typescript,
   },
   {
-    name: "React",
+    name: "React/React Native",
     image: react,
+  },
+  {
+    name: "React Native/Expo",
+    image: expo,
   },
   {
     name: "SCSS",
@@ -53,6 +61,10 @@ export const technologies = [
     image: redux,
   },
   {
+    name: "Zustand",
+    image: zustand,
+  },
+  {
     name: "Node.js(Express)",
     image: node_js,
   },
@@ -63,6 +75,10 @@ export const technologies = [
   {
     name: "Formik",
     image: formik,
+  },
+  {
+    name: "React Hook Form",
+    image: hook_form,
   },
   {
     name: "Next JS",
@@ -79,5 +95,9 @@ export const technologies = [
   {
     name: "Tailwind CSS",
     image: tailwind,
+  },
+  {
+    name: "Flowbite",
+    image: flowbite,
   },
 ];

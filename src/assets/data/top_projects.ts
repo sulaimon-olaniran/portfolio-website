@@ -4,8 +4,21 @@ import base64 from "../images/base64_project.png";
 import os_messenger from "../images/os_messenger_project.png";
 import afrilib from "../images/afrilib.png";
 import healthstack from "../images/healthstack.png";
+import green_indie from "../images/green-indie.png";
+import asos from "../images/ason.png";
 
 export const projects = [
+  {
+    name: "Green Indie",
+    live: "https://www.greenindie.com/",
+    repo: "",
+    image: green_indie,
+    description: `Green Indie is a virtual auditioning platform for talented upcoming artists to upload and showcase their talents. It is intended for all
+          artists that are hoping to break into the music industry. The Green
+          Indie platform’s sole purpose is to sponsor talented artists and
+          connect artists to recording labels/producers.`,
+    techs: ["Next.JS", "Typescript", "SCSS", "Material-UI", "React-Query"],
+  },
   {
     name: "Afreb.Lib Academy",
     live: "https://afrelib-client.vercel.app/",
@@ -13,7 +26,32 @@ export const projects = [
     image: afrilib,
     description:
       "An Academy Artificial Intelligence Challenge project which I was priviledge to work on the frontend and collaborated with other developers (frontend and backend)",
-    techs: ["Next.JS", "CSS", "SCSS", "Material-UI", "React-Query"],
+    techs: [
+      "Next.JS",
+      "Typescript",
+      "CSS",
+      "SCSS",
+      "Material-UI",
+      "React-Query",
+    ],
+  },
+
+  {
+    name: "ASOS Clone",
+    live: "https://sulaimon-olaniran-asos-clone.netlify.app/",
+    repo: "https://github.com/sulaimon-olaniran/ASOS-clone",
+    image: asos,
+    description:
+      "A Clone of the popular shopping web application know as ASOS, using APIs from Rapid Api",
+    techs: [
+      "React.JS",
+      "Typescript",
+      "CSS",
+      "SCSS",
+      "Material-UI",
+      "Redux",
+      "Rapid Api",
+    ],
   },
 
   {
@@ -38,7 +76,7 @@ export const projects = [
 
   {
     name: "Instagram Web Clone",
-    live: "https://os-whatsapp-clone.netlify.app/",
+    live: "https://os-instagram-clone.netlify.app/",
     repo: "https://github.com/sulaimon-olaniran/instagram-web-clone",
     image: instagram,
     description:

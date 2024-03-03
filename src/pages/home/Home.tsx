@@ -18,8 +18,9 @@ const Homepage = () => {
             open to frontend developer job role and also mid-level roles as a
             backend developer
           </p>
+
           <a
-            href=" https://drive.google.com/file/d/1JNAC8ar_HEhhK4COwya4HGOSiMJZ9h0b/view?usp=sharing"
+            href="https://drive.google.com/file/d/1TkTDaDhaLFxrGS4JHrAn4b5wkrP54xda/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >

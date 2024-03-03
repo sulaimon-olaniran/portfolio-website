@@ -6,10 +6,10 @@ import {Button, IconButton} from "@mui/material";
 import Checkbox from "@mui/material/Checkbox";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import MailIcon from "@mui/icons-material/Mail";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import TwitterIcon from "@mui/icons-material/Twitter";
-import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 interface iProps {
@@ -113,14 +113,16 @@ const ContactPage = ({touched, errors, isSubmitting, status}: iProps) => {
               <div className="detail-container">
                 <LocalPhoneIcon />
                 <h3>Phone</h3>
-                <p>+234 90 3579 3269,</p>
-                <p>+234 80 2665 8025.</p>
+                <p>+234 90 3579 3269</p>
+                {/* <p>+234 80 2665 8025.</p> */}
               </div>
 
               <div className="detail-container">
                 <MailIcon />
                 <h3>Email</h3>
-                <p>sulaimon.olaniran95@gmail.com.</p>
+                <a href="mailto:sulaimon.olaniran95@gmail.com.">
+                  <p>sulaimon.olaniran95@gmail.com.</p>
+                </a>
               </div>
             </div>
 
